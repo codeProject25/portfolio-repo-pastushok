@@ -387,6 +387,12 @@ article .icon {
 
 /* CONTACT */
 
+@media (max-width: 360px) {
+  .contact-info-container p a {
+    font-size: 0.9rem;
+  }
+}
+
 #contact {
   display: flex;
   justify-content: center;
