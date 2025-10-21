@@ -308,6 +308,13 @@ section {
   text-align: center;
 }
 
+@media screen and (max-width: 600px) {
+  .text-container {
+    text-align: justify;
+    letter-spacing: -0.05em;
+  }
+}
+
 .section-container {
   gap: 4rem;
   height: 80%;
